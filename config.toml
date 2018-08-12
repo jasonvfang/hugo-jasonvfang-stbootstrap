@@ -1,0 +1,45 @@
+baseurl = "https://blog.jasonvfang.top"
+title = "Jason Fang BLOG"
+canonifyurls = true
+paginate = 10
+theme = "startbootstrap-clean-blog"
+languageCode = "en-us"
+copyright = "Jason Fang@2017 Powered by hugo."
+#googleAnalytics = "UA-123-45" # delete or comment to disable Google Analytics JS generation
+#disqusShortname = "YourDisqusShortname" #delete or comment to disable Disqus comments
+
+[author]
+  name = "Jason.Fang"
+
+[params]
+  DateForm = "Mon, Jan 2, 2006"
+  Description = ""
+  Author = "Jason.Fang"
+  email = "jasonvfang@gmail.com" #Remove this line if you would prefer not to use an email button in the footer.
+  postSummariesFrontPage = 4 #Number of post summaries to show on front page, comment out to allow default(4)
+  showReadTime = false #set to false to exclude read time from header of post
+
+[[params.social]]
+  title = "twitter"
+  url = "https://twitter.com/jasonvfang"
+[[params.social]]
+  title = "github"
+  url = "https://github.com/jasonvfang"
+
+
+[[menu.main]]
+  name = "Home"
+  url = "/"
+  weight = -200
+[[menu.main]]
+  name = "Archives"
+  url = "/post/"
+  weight = -180
+[[menu.main]]
+  name = "Tags"
+  url = "/tags/"
+  weight = -160  
+[[menu.main]]
+  name = "Categories"
+  url = "/categories/"
+  weight = -160  
